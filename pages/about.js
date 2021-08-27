@@ -1,18 +1,13 @@
 import { Fragment } from "react";
 import Head from "../components/Head";
 import Nav from "../components/Nav";
-import Header from "../components/Header";
-import Featured from "../components/Featured";
 
-const Home = () => {
+export default function Home() {
   return (
     <Fragment>
       <Head />
       <Nav />
-      <Header />
-      <Featured />
+      <h1>about</h1>
     </Fragment>
   );
-};
-
-export default Home;
+}

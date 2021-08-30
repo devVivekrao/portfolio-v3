@@ -47,8 +47,11 @@ const Project = (props) => {
           <H3>{props.project.name}</H3>
           <P>{props.project.description}</P>
           <Tags>
-            {props.project.tags.map((tag) => (
-              <span className={tag}> #{tag}</span>
+            {props.project.tags.map((tag, index) => (
+              <span className={tag} key={index}>
+                {" "}
+                #{tag}
+              </span>
             ))}
           </Tags>
         </FlexDiv>

@@ -38,12 +38,13 @@ const Header = () => {
     <Section>
       <div>
         <H1>
-          Hi, I’m Vivek. A fullstack javascript (MERN) developer based in India.{" "}
+          Hi, I&apos;m Vivek. A fullstack javascript (MERN) developer based in
+          India.
         </H1>
         <P>
           I specialise in creating interactive experiences and functional <br />
-          interfaces using reactJS (nextJS). I'm passionate about giving back
-          and <br /> teaching what I know so you may find me sharing my
+          interfaces using reactJS (nextJS). I&aops;m passionate about giving
+          back and <br /> teaching what I know so you may find me sharing my
           development <br /> thoughts on twitter and posting about my life on
           Instagram.
         </P>

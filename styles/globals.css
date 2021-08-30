@@ -1,6 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700;900&display=swap");
-@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Sofia Pro"),
+    url("../public/fonts/Sofia\ Pro\ Light\ Az.woff") format("woff");
+}
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sofia Pro"),
+    url("../public/fonts/Sofia\ Pro\ Regular\ Az.woff") format("woff");
+}
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Sofia Pro"),
+    url("../public/fonts/Sofia\ Pro\ Regular\ Az.woff") format("woff");
+}
 
 html,
 body {

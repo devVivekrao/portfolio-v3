@@ -43,7 +43,7 @@ const Header = () => {
         </H1>
         <P>
           I specialise in creating interactive experiences and functional <br />
-          interfaces using reactJS (nextJS). I&aops;m passionate about giving
+          interfaces using reactJS (nextJS). I&apos;m passionate about giving
           back and <br /> teaching what I know so you may find me sharing my
           development <br /> thoughts on twitter and posting about my life on
           Instagram.

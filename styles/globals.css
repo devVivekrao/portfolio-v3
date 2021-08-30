@@ -4,7 +4,6 @@
 
 html,
 body {
-  margin: 0;
   padding: 1rem 3.5rem;
   font-family: "Sofia Pro", Helvetica Neue, sans-serif;
   font-weight: 300;
@@ -12,6 +11,8 @@ body {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -34,4 +35,49 @@ li {
   outline: none;
   border: none;
   letter-spacing: 1px;
+}
+
+span {
+  padding: 0.3rem 0.8rem;
+  margin-right: 1rem;
+  text-transform: capitalize;
+}
+.react {
+  color: #6b46c1;
+  border-bottom: 3px solid #6b46c1;
+  background-color: #d6bcfa;
+}
+.node {
+  color: #38a169;
+  border-bottom: 3px solid #38a169;
+  background-color: #c6f6d5;
+}
+.mongo {
+  color: #319795;
+  border-bottom: 3px solid #319795;
+  background-color: #b2f5ea;
+}
+.express {
+  color: #38a169;
+  border-bottom: 3px solid #38a169;
+  background-color: #c6f6d5;
+}
+.html5 {
+  color: #38a169;
+  border-bottom: 3px solid #38a169;
+  background-color: #c6f6d5;
+}
+.javascript {
+  color: #5f370e;
+  border-bottom: 3px solid #5f370e;
+  background-color: #faf089;
+}
+.scss {
+  color: #b83280;
+  border-bottom: 3px solid #b83280;
+  background-color: #fbb6ce;
+}
+.active-footer {
+  font-weight: 700;
+  color: #6b46c1;
 }

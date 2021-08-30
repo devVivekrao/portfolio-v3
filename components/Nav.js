@@ -3,13 +3,14 @@ import useDarkMode from "use-dark-mode";
 import { MoonFill, SunFill } from "akar-icons";
 import styled from "styled-components";
 import { useRouter } from "next/router";
+// import Resume from "../public/resume.pdf";
 
 const Navbar = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
-const H1 = styled.h1`
+const Logo = styled.h1`
   font-family: "Source Code Pro", Helvetica Neue, sans-serif;
   font-size: 1.6rem;
 `;
@@ -33,9 +34,9 @@ const Nav = () => {
 
   return (
     <Navbar>
-      <H1>
+      <Logo>
         <Link href="/">Vivek rao</Link>
-      </H1>
+      </Logo>
       <Ul>
         <Li className={router.pathname == "/" ? "active" : ""}>
           <Link href="/">Home</Link>

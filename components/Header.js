@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Section = styled.section`
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding-top: 5rem;
+  padding-top: 10rem;
 `;
 
 const H1 = styled.h1`
@@ -12,8 +12,8 @@ const H1 = styled.h1`
   font-size: 2.7rem;
 `;
 const P = styled.p`
-  letter-spacing: 1px;
-  margin-top: -20px;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
 `;
 const BtnDiv = styled.div`
   display: flex;

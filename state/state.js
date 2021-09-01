@@ -34,8 +34,8 @@ export const AllProjects = [
     description:
       "Simple social media app built with react, node, express and mongodb.",
     tags: ["react", "node", "mongo", "express"],
-    live: "http://vivekrao.netlify.app/",
-    github: "https://github.com/devVivekrao/sunnyside-agency-landing-page",
+    live: "https://vr-social-media.netlify.app/",
+    github: "https://github.com/devVivekrao/social-media-app",
     featured: true,
   },
 ];
